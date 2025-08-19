@@ -1,0 +1,12 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+
+:root {
+  --bg:#0E1B26; --bgMuted:#122434; --card:rgba(255,255,255,0.06); --cardBorder:rgba(255,255,255,0.10);
+  --accent:#00D0B0; --accent2:#14B8A6; --text:#FFFFFF; --muted:#BABDC0; --ink:#0B1220; --heading:#F59E0B;
+}

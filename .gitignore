@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.vite/
+.cache/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*

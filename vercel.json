@@ -1,0 +1,46 @@
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000; includeSubDomains; preload"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' https://*.tradingview.com; connect-src 'self' https://*.tradingview.com https://discord.com https://*.discord.com; img-src 'self' data: https://*.tradingview.com https://discord.com https://*.discord.com https://cdn.discordapp.com; style-src 'self'; font-src 'self' data:; frame-src https://*.tradingview.com https://discord.com https://*.discord.com; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+        },
+        {
+          "key": "Cross-Origin-Opener-Policy",
+          "value": "same-origin"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.macrostructuredotconnect.com"
+        }
+      ],
+      "destination": "https://macrostructuredotconnect.com/$1",
+      "permanent": true
+    }
+  ]
+}
