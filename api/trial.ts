@@ -1,4 +1,4 @@
-
+﻿
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -23,3 +23,5 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(200).json({ ok:true, note:'No webhook configured' });
   } catch(e){ return res.status(500).json({ error:'Internal error' }); }
 }
+
+

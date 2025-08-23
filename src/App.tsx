@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+﻿import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import {
   LineChart,
@@ -49,7 +49,7 @@ const applyLogoEmerald = () => {
 const LogoImg: React.FC = () => (
   <img
     src="/publiclogo.png" // file lives in: /public/publiclogo.png
-    alt="MacroStructure dot Connect"
+    alt="MacroStructure Connect"
     className="h-12 sm:h-14 md:h-16 w-auto hidden"
     onLoad={(e) => {
       e.currentTarget.classList.remove("hidden");
@@ -140,17 +140,17 @@ const TradingViewChart: React.FC<{
 
 // Quick-picks: embed uses public/free proxies; link uses official futures
 const FUTS: { label: string; embed: string; tv: string }[] = [
-  { label: "ES · E-mini S&P",             embed: "OANDA:SPX500USD", tv: "CME_MINI:ES1!" },
-  { label: "NQ · E-mini Nasdaq",          embed: "OANDA:NAS100USD", tv: "CME_MINI:NQ1!" },
-  { label: "YM · Mini Dow",               embed: "OANDA:US30USD",   tv: "CBOT_MINI:YM1!" },
-  { label: "CL · Crude Oil",              embed: "TVC:USOIL",       tv: "NYMEX:CL1!" },
-  { label: "GC · Gold",                   embed: "TVC:GOLD",        tv: "COMEX:GC1!" },
-  { label: "SI · Silver",                 embed: "TVC:SILVER",      tv: "COMEX:SI1!" },
-  { label: "NG · Nat Gas",                embed: "OANDA:NATGASUSD", tv: "NYMEX:NG1!" },
-  { label: "ZN · 10Y Note (yield proxy)", embed: "TVC:US10Y",       tv: "CBOT:ZN1!" },
-  { label: "ZB · 30Y Bond (yield proxy)", embed: "TVC:US30Y",       tv: "CBOT:ZB1!" },
-  { label: "6E · Euro FX (spot proxy)",   embed: "OANDA:EURUSD",    tv: "CME:6E1!" },
-  { label: "DXY · US Dollar",             embed: "TVC:DXY",         tv: "TVC:DXY" },
+  { label: "ES Â· E-mini S&P",             embed: "OANDA:SPX500USD", tv: "CME_MINI:ES1!" },
+  { label: "NQ Â· E-mini Nasdaq",          embed: "OANDA:NAS100USD", tv: "CME_MINI:NQ1!" },
+  { label: "YM Â· Mini Dow",               embed: "OANDA:US30USD",   tv: "CBOT_MINI:YM1!" },
+  { label: "CL Â· Crude Oil",              embed: "TVC:USOIL",       tv: "NYMEX:CL1!" },
+  { label: "GC Â· Gold",                   embed: "TVC:GOLD",        tv: "COMEX:GC1!" },
+  { label: "SI Â· Silver",                 embed: "TVC:SILVER",      tv: "COMEX:SI1!" },
+  { label: "NG Â· Nat Gas",                embed: "OANDA:NATGASUSD", tv: "NYMEX:NG1!" },
+  { label: "ZN Â· 10Y Note (yield proxy)", embed: "TVC:US10Y",       tv: "CBOT:ZN1!" },
+  { label: "ZB Â· 30Y Bond (yield proxy)", embed: "TVC:US30Y",       tv: "CBOT:ZB1!" },
+  { label: "6E Â· Euro FX (spot proxy)",   embed: "OANDA:EURUSD",    tv: "CME:6E1!" },
+  { label: "DXY Â· US Dollar",             embed: "TVC:DXY",         tv: "TVC:DXY" },
 ];
 
 export default function App() {
@@ -221,9 +221,8 @@ export default function App() {
       setStatus("success");
       setEmail("");
     } catch {
-      window.location.href = `mailto:hello@macrostructure.connect?subject=Free Trial Request&body=Email:%20${encodeURIComponent(
-        email
-      )}`;
+      window.location.href = `mailto:djfatiaki@gmail.com?subject=Free%20Trial%20Request&body=Email:%20${encodeURIComponent(email)}`;
+
       setStatus("success");
       setEmail("");
     }
@@ -234,7 +233,7 @@ export default function App() {
       date: "Feb 2025",
       headline:
         "Bitcoin, Ethereum, and Ripple's breakout is imminent: Will symmetrical triangle patterns trigger a sell-off?",
-      sub: "Symmetrical triangle patterns signal indecision—Will Bitcoin, Ethereum, and Ripple follow the Dow's lead?",
+      sub: "Symmetrical triangle patterns signal indecisionâ€”Will Bitcoin, Ethereum, and Ripple follow the Dow's lead?",
       link:
         "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-ethereum-and-ripples-breakout-is-imminent-will-symmetrical-triangle-patterns-trigger-a-sell-off-202502230540",
     },
@@ -252,7 +251,7 @@ export default function App() {
       headline:
         "Bitcoin Hits First Target at $87,200 Amid Market Sell-Off and Liquidation Spike.",
       sub:
-        "Bitcoin (BTC) has fallen over 10% from its $96,400 impact point, breaking the crucial $90,320 support zone within two days and reaching the initial target at $87,200—a major support level from November 2024.",
+        "Bitcoin (BTC) has fallen over 10% from its $96,400 impact point, breaking the crucial $90,320 support zone within two days and reaching the initial target at $87,200â€”a major support level from November 2024.",
       link:
         "https://www.linkedin.com/posts/joeli-fatiaki-80393b126_btcusd-bitcoin-tradesignals-activity-7300380593542873088-GB8K",
     },
@@ -270,7 +269,7 @@ export default function App() {
       headline:
         "Bitcoin's safe-haven ascent: Could BTC join Gold as a global hedge against US Dollar and yield decline?",
       sub:
-        "As the US dollar teeters on long-term support, yields flash warnings, and USD/JPY unravels, bitcoin's structure points to a reversal—and a potential role alongside gold as a global safe-haven asset.",
+        "As the US dollar teeters on long-term support, yields flash warnings, and USD/JPY unravels, bitcoin's structure points to a reversalâ€”and a potential role alongside gold as a global safe-haven asset.",
       link:
         "https://www.fxstreet.com/cryptocurrencies/news/bitcoins-safe-haven-ascent-could-btc-join-gold-as-a-global-hedge-against-us-dollar-and-yield-decline-202504191950",
     },
@@ -301,7 +300,7 @@ export default function App() {
           <div className="flex items-center gap-3">
             <LogoImg />
             <span className="font-semibold tracking-wide">
-              MacroStructure dot Connect
+              MacroStructure Connect
             </span>
           </div>
           <nav className="hidden md:flex items-center gap-8 text-sm text-[var(--muted)]">
@@ -332,7 +331,7 @@ export default function App() {
             <p className="mt-6 text-[var(--muted)] max-w-xl">
               Institutional-grade Supply & Demand system that maps high-probability
               zones ahead of price. Built for Futures, FX, Crypto, Commodities, and
-              Bonds—engineered to track the major players’ footprint from monthly
+              Bondsâ€”engineered to track the major playersâ€™ footprint from monthly
               down to 1-minute.
             </p>
             <div className="mt-4 bg-[var(--card)] border border-[var(--cardBorder)] rounded-xl p-3 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-[var(--muted)] break-words">
@@ -369,7 +368,7 @@ export default function App() {
             <div className="grid grid-cols-2 gap-4">
               <StatCard icon={LineChart} title="Price-Ahead Zones" desc="Projected S&D areas before price" />
               <StatCard icon={Layers} title="System Synergy" desc="Alpha + Beta work together" />
-              <StatCard icon={Telescope} title="Top-Down Flow" desc="Monthly → 1m alignment" />
+              <StatCard icon={Telescope} title="Top-Down Flow" desc="Monthly â†’ 1m alignment" />
               <StatCard icon={ShieldCheck} title="Rules-Driven" desc="No chase. Wait for setup." />
             </div>
           </div>
@@ -392,12 +391,12 @@ export default function App() {
           <div>
             <h2 className="text-3xl sm:text-4xl font-semibold text-[var(--heading)]">Six Pillars to Supply & Demand Mastery</h2>
             <p className="mt-4 text-[var(--muted)]">
-              Our rules are simple: short at <span className="text-white font-semibold">micro 5→4</span> and long at <span className="text-white font-semibold">micro 1→2</span>—only when structure aligns with signals. No chasing.
+              Our rules are simple: short at <span className="text-white font-semibold">micro 5â†’4</span> and long at <span className="text-white font-semibold">micro 1â†’2</span>â€”only when structure aligns with signals. No chasing.
             </p>
             <ul className="mt-6 space-y-3 text-[var(--muted)] list-disc list-inside">
-              <li>Top-down framing: monthly → weekly → daily → intraday</li>
+              <li>Top-down framing: monthly â†’ weekly â†’ daily â†’ intraday</li>
               <li>Projected zones ahead of price with VWAP/volume context</li>
-              <li>Clear invalidation & target pivots (micro 1–5)</li>
+              <li>Clear invalidation & target pivots (micro 1â€“5)</li>
               <li>TTM and flow confirmation before trigger</li>
             </ul>
           </div>
@@ -416,14 +415,14 @@ export default function App() {
       {/* Indicators */}
       <section id="indicators" className="border-y border-[var(--cardBorder)] bg-[var(--bgMuted)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          <h2 className="text-3xl sm:text-4xl font-semibold">Macro S&D Alpha & Beta — Indicators</h2>
+          <h2 className="text-3xl sm:text-4xl font-semibold">Macro S&D Alpha & Beta â€” Indicators</h2>
           <p className="mt-3 text-[var(--muted)] max-w-3xl">
             Invite-only on TradingView. Message <span className="font-semibold">@Rotuma</span> with your TradingView username to begin your <span className="font-semibold">14-day free trial</span>.
           </p>
           <div className="mt-10 grid md:grid-cols-2 gap-6">
             <div className="rounded-2xl bg-[var(--card)] p-6 border border-[var(--cardBorder)]">
               <div className="text-sm text-[var(--muted)]">Indicator</div>
-              <div className="text-xl font-semibold">Macro S&D · Alpha</div>
+              <div className="text-xl font-semibold">Macro S&D Â· Alpha</div>
               <ul className="mt-4 space-y-2 text-[var(--muted)] list-disc list-inside">
                 <li>Projects macro supply/demand zones</li>
                 <li>Guides bias, context, and risk posture</li>
@@ -432,9 +431,9 @@ export default function App() {
             </div>
             <div className="rounded-2xl bg-[var(--card)] p-6 border border-[var(--cardBorder)]">
               <div className="text-sm text-[var(--muted)]">Indicator</div>
-              <div className="text-xl font-semibold">Macro S&D · Beta</div>
+              <div className="text-xl font-semibold">Macro S&D Â· Beta</div>
               <ul className="mt-4 space-y-2 text-[var(--muted)] list-disc list-inside">
-                <li>Micro pivots (1–5) and execution zones</li>
+                <li>Micro pivots (1â€“5) and execution zones</li>
                 <li>Confirms triggers with volume/flow</li>
                 <li>Pairs with Alpha for precise entries</li>
               </ul>
@@ -450,25 +449,25 @@ export default function App() {
             <h2 className="text-3xl sm:text-4xl font-semibold">Daily Playbook, Multi-Timeframe Forecast</h2>
             <p className="mt-4 text-[var(--muted)]">
               We publish structured analysis that connects macro context with actionable intraday plans.
-              Expect clarity on key levels, confluence, and invalidations—no noise, just structure.
+              Expect clarity on key levels, confluence, and invalidationsâ€”no noise, just structure.
             </p>
             <ul className="mt-6 space-y-3 text-[var(--muted)] list-disc list-inside">
               <li>London & New York sessions: execution windows</li>
               <li>Clear rules: engage at micro 1/2 (long) and 5/4 (short)</li>
-              <li>“No chase” discipline to avoid low-quality trades</li>
+              <li>â€œNo chaseâ€ discipline to avoid low-quality trades</li>
             </ul>
           </div>
           <div className="rounded-2xl bg-gradient-to-br from-[var(--bgMuted)] to-[var(--bg)] p-6 border border-[var(--cardBorder)]">
             <div className="text-sm text-[var(--muted)]">Sample Highlights</div>
             <div className="mt-3 space-y-3">
               <div className="rounded-xl bg-[var(--card)] p-4 border border-[var(--cardBorder)]">
-                SPX & SPY: defended VWAP lower band; trend sustained above 2.02–2.22 band, targeting 2.96–3.73 (options context).
+                SPX & SPY: defended VWAP lower band; trend sustained above 2.02â€“2.22 band, targeting 2.96â€“3.73 (options context).
               </div>
               <div className="rounded-xl bg-[var(--card)] p-4 border border-[var(--cardBorder)]">
-                Nasdaq Futures: micro-1 defense → micro-4 target hit; typical MacroStructure long signal (Asia → London follow-through).
+                Nasdaq Futures: micro-1 defense â†’ micro-4 target hit; typical MacroStructure long signal (Asia â†’ London follow-through).
               </div>
               <div className="rounded-2xl bg-[var(--card)] p-4 border border-[var(--cardBorder)]">
-                Dow Futures: short micro 5→4 into micro-3; rotation long micro-1→2 on structure alignment.
+                Dow Futures: short micro 5â†’4 into micro-3; rotation long micro-1â†’2 on structure alignment.
               </div>
             </div>
           </div>
@@ -478,7 +477,7 @@ export default function App() {
       {/* Discord CTA */}
       <section id="discord" className="border-y border-[var(--cardBorder)] bg-[var(--bgMuted)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          <h2 className="text-3xl sm:text-4xl font-semibold text-center">Join the Discord — Live Updates & Analysis</h2>
+          <h2 className="text-3xl sm:text-4xl font-semibold text-center">Join the Discord â€” Live Updates & Analysis</h2>
           <p className="mt-3 text-[var(--muted)] text-center max-w-2xl mx-auto">
             All actionable analysis, levels, and session notes are posted in our community Discord.
           </p>
@@ -519,7 +518,7 @@ export default function App() {
               ) : (
                 <div className="p-6 text-[var(--muted)] text-sm">
                   Set <code>VITE_DISCORD_SERVER_ID</code> to embed the community widget here.
-                  The “Join Discord” button works either way.
+                  The â€œJoin Discordâ€ button works either way.
                 </div>
               )}
             </div>
@@ -542,7 +541,7 @@ export default function App() {
             </a>
           </div>
           <p className="mt-3 text-[var(--muted)] text-center max-w-2xl mx-auto">
-            Years of reliable analysis — connecting fundamentals and technicals across Crypto, FX, Commodities, Stocks, Bonds, Options, Futures, and Indices.
+            Years of reliable analysis â€” connecting fundamentals and technicals across Crypto, FX, Commodities, Stocks, Bonds, Options, Futures, and Indices.
           </p>
           <div className="mt-10 grid md:grid-cols-2 gap-8">
             {trackRecord.map((item, idx) => (
@@ -569,7 +568,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
           <h2 className="text-3xl sm:text-4xl font-semibold text-[var(--heading)]">Start Your 14-Day Free Trial</h2>
           <p className="mt-3 text-[var(--muted)]">
-            Message <span className="font-semibold">@Rotuma</span> on TradingView with your username. We’ll turn on access—no forms, no card, no obligations.
+            Message <span className="font-semibold">@Rotuma</span> on TradingView with your username. Weâ€™ll turn on accessâ€”no forms, no card, no obligations.
           </p>
           <div className="mt-8 max-w-xl mx-auto">
             <form onSubmit={handleSubmit} noValidate className="rounded-2xl bg-[var(--card)] border border-[var(--cardBorder)] p-4 sm:p-5">
@@ -596,7 +595,7 @@ export default function App() {
                     {status === "sending" ? (
                       <>
                         <Loader2 className="h-4 w-4 animate-spin" />
-                        Sending…
+                        Sendingâ€¦
                       </>
                     ) : (
                       <>
@@ -615,7 +614,8 @@ export default function App() {
 
             <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="mailto:hello@macrostructure.connect?subject=Subscribe%20$99%2Fmo%20(USD)&body=Please%20send%20me%20the%20payment%20link%20for%20MacroStructure%20dot%20Connect."
+                href="mailto:djfatiaki@gmail.com?subject=Subscribe%20$99%2Fmo%20(USD)&body=Please%20send%20me%20the%20payment%20link%20for%20MacroStructure%20Connect."
+
                 className="rounded-2xl bg-[var(--accent)] px-6 py-3 text-[var(--ink)] font-semibold shadow-xl"
               >
                 Subscribe $99/mo (USD)
@@ -628,7 +628,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* Live Chart — bigger, screenshots removed */}
+      {/* Live Chart â€” bigger, screenshots removed */}
       <section id="live-chart" className="border-t border-[var(--cardBorder)] bg-[var(--bg)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <h2 className="text-3xl sm:text-4xl font-semibold text-[var(--heading)] mb-1 flex items-center justify-between">
@@ -644,7 +644,7 @@ export default function App() {
 
           <p className="mt-2 text-[var(--muted)]">
             Symbol: <span className="font-mono">{linkSymbol}</span>. Use the buttons or type a TradingView symbol
-            (ES, NQ, YM, CL, GC, SI, ZN, ZB, 6E, DXY…).
+            (ES, NQ, YM, CL, GC, SI, ZN, ZB, 6E, DXYâ€¦).
           </p>
 
           {/* Futures quick-picks + manual symbol box */}
@@ -759,7 +759,7 @@ export default function App() {
       <section id="videos" className="border-y border-[var(--cardBorder)] bg-[var(--bgMuted)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <h2 className="text-3xl sm:text-4xl font-semibold text-center">Market Insights & Walkthroughs</h2>
-          <p className="mt-3 text-[var(--muted)] text-center max-w-2xl mx-auto">Coming soon — live analysis & strategy breakdowns.</p>
+          <p className="mt-3 text-[var(--muted)] text-center max-w-2xl mx-auto">Coming soon â€” live analysis & strategy breakdowns.</p>
           <div className="mt-10 grid md:grid-cols-2 gap-8">
             <div className="rounded-2xl bg-[var(--card)] border border-[var(--cardBorder)] flex flex-col items-center justify-center p-6 h-64"><PlayCircle className="h-12 w-12 text-[var(--accent)]" /><span className="mt-4 text-[var(--muted)]">Video Placeholder #1</span></div>
             <div className="rounded-2xl bg-[var(--card)] border border-[var(--cardBorder)] flex flex-col items-center justify-center p-6 h-64"><PlayCircle className="h-12 w-12 text-[var(--accent)]" /><span className="mt-4 text-[var(--muted)]">Video Placeholder #2</span></div>
@@ -773,7 +773,7 @@ export default function App() {
           <div className="lg:col-span-2">
             <h3 className="text-2xl font-semibold">From Institutional Playbook to Public Access</h3>
             <p className="mt-3 text-[var(--muted)]">
-              MacroStructure has delivered reliable market analysis for years — connecting fundamentals and technicals across Crypto, FX, Commodities, Stocks, Bonds, Options, Futures, and Indices. Now, we’re putting the same strategy directly in your hands so you can take a front-row seat at the battlefield and trade with structure, discipline, and clarity.
+              MacroStructure has delivered reliable market analysis for years â€” connecting fundamentals and technicals across Crypto, FX, Commodities, Stocks, Bonds, Options, Futures, and Indices. Now, weâ€™re putting the same strategy directly in your hands so you can take a front-row seat at the battlefield and trade with structure, discipline, and clarity.
             </p>
             <div className="mt-6 grid md:grid-cols-2 gap-4">
               <div className="rounded-2xl bg-[var(--card)] p-5 border border-[var(--cardBorder)]"><div className="font-semibold">Institutional Audience</div><div className="text-sm text-[var(--muted)]">Trusted by professionals across prop, desks, and serious independents.</div></div>
@@ -783,9 +783,9 @@ export default function App() {
           <div className="rounded-2xl bg-[var(--card)] p-6 border border-[var(--cardBorder)]">
             <div className="flex items-center gap-2"><Users className="h-5 w-5"/><span className="text-sm text-[var(--muted)]">What traders say</span></div>
             <div className="mt-4 space-y-4 text-sm text-[var(--muted)]">
-              <p>“The levels are there before price. It’s like having the map.”</p>
-              <p>“Alpha sets the frame, Beta times the strike. Clean.”</p>
-              <p>“Finally, a rule-set that keeps me from chasing.”</p>
+              <p>â€œThe levels are there before price. Itâ€™s like having the map.â€</p>
+              <p>â€œAlpha sets the frame, Beta times the strike. Clean.â€</p>
+              <p>â€œFinally, a rule-set that keeps me from chasing.â€</p>
             </div>
           </div>
         </div>
@@ -797,8 +797,8 @@ export default function App() {
           <h3 className="text-2xl font-semibold">FAQ</h3>
           <div className="mt-6 grid md:grid-cols-2 gap-6">
             <div className="rounded-2xl bg-[var(--card)] p-5 border border-[var(--cardBorder)]"><div className="font-semibold">What platforms do you support?</div><div className="text-[var(--muted)] text-sm mt-2">TradingView indicators (invite-only). Futures, FX, Crypto, Commodities, Bonds.</div></div>
-            <div className="rounded-2xl bg-[var(--card)] p-5 border border-[var(--cardBorder)]"><div className="font-semibold">How do I get access?</div><div className="text-[var(--muted)] text-sm mt-2">Message @Rotuma with your TradingView username. You’ll receive 14-day access.</div></div>
-            <div className="rounded-2xl bg-[var(--card)] p-5 border border-[var(--cardBorder)]"><div className="font-semibold">What’s included?</div><div className="text-[var(--muted)] text-sm mt-2">Alpha & Beta indicators, the 25-page guide, and regular structure notes/playbooks.</div></div>
+            <div className="rounded-2xl bg-[var(--card)] p-5 border border-[var(--cardBorder)]"><div className="font-semibold">How do I get access?</div><div className="text-[var(--muted)] text-sm mt-2">Message @Rotuma with your TradingView username. Youâ€™ll receive 14-day access.</div></div>
+            <div className="rounded-2xl bg-[var(--card)] p-5 border border-[var(--cardBorder)]"><div className="font-semibold">Whatâ€™s included?</div><div className="text-[var(--muted)] text-sm mt-2">Alpha & Beta indicators, the 25-page guide, and regular structure notes/playbooks.</div></div>
             <div className="rounded-2xl bg-[var(--card)] p-5 border border-[var(--cardBorder)]"><div className="font-semibold">Is this financial advice?</div><div className="text-[var(--muted)] text-sm mt-2">No. Educational content and research tools only.</div></div>
           </div>
           <p className="mt-8 text-xs text-[var(--muted)]">Disclaimer: The materials are for informational purposes only and do not constitute investment advice.</p>
@@ -808,7 +808,7 @@ export default function App() {
       {/* Footer */}
       <footer className="border-t border-[var(--cardBorder)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-sm text-[var(--muted)] flex flex-col md:flex-row items-center justify-between gap-4">
-          <div>© {new Date().getFullYear()} MacroStructure dot Connect. All rights reserved.</div>
+          <div>Â© {new Date().getFullYear()} MacroStructure Connect. All rights reserved.</div>
           <div className="flex items-center gap-6">
             <a href="#" className="hover:text-white">Terms</a>
             <a href="#" className="hover:text-white">Privacy</a>
@@ -820,3 +820,5 @@ export default function App() {
     </div>
   );
 }
+
+
