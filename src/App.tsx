@@ -809,7 +809,7 @@ export default function App() {
       {/* Footer */}
       <footer className="border-t border-[var(--cardBorder)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-sm text-[var(--muted)] flex flex-col md:flex-row items-center justify-between gap-4">
-          <div>Â© {new Date().getFullYear()} MacroStructure Connect. All rights reserved.</div>
+          <div>Â&copy; {new Date().getFullYear()} MacroStructure Connect. All rights reserved.</div>
           <div className="flex items-center gap-6">
             <a href="#" className="hover:text-white">Terms</a>
             <a href="#" className="hover:text-white">Privacy</a>
