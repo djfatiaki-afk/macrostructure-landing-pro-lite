@@ -140,17 +140,17 @@ const TradingViewChart: React.FC<{
 
 // Quick-picks: embed uses public/free proxies; link uses official futures
 const FUTS: { label: string; embed: string; tv: string }[] = [
-  { label: "ES Â· E-mini S&P",             embed: "OANDA:SPX500USD", tv: "CME_MINI:ES1!" },
-  { label: "NQ Â· E-mini Nasdaq",          embed: "OANDA:NAS100USD", tv: "CME_MINI:NQ1!" },
-  { label: "YM Â· Mini Dow",               embed: "OANDA:US30USD",   tv: "CBOT_MINI:YM1!" },
-  { label: "CL Â· Crude Oil",              embed: "TVC:USOIL",       tv: "NYMEX:CL1!" },
-  { label: "GC Â· Gold",                   embed: "TVC:GOLD",        tv: "COMEX:GC1!" },
-  { label: "SI Â· Silver",                 embed: "TVC:SILVER",      tv: "COMEX:SI1!" },
-  { label: "NG Â· Nat Gas",                embed: "OANDA:NATGASUSD", tv: "NYMEX:NG1!" },
-  { label: "ZN Â· 10Y Note (yield proxy)", embed: "TVC:US10Y",       tv: "CBOT:ZN1!" },
-  { label: "ZB Â· 30Y Bond (yield proxy)", embed: "TVC:US30Y",       tv: "CBOT:ZB1!" },
-  { label: "6E Â· Euro FX (spot proxy)",   embed: "OANDA:EURUSD",    tv: "CME:6E1!" },
-  { label: "DXY Â· US Dollar",             embed: "TVC:DXY",         tv: "TVC:DXY" },
+  { label: "ES - E-mini S&P",             embed: "OANDA:SPX500USD", tv: "CME_MINI:ES1!" },
+  { label: "NQ - E-mini Nasdaq",          embed: "OANDA:NAS100USD", tv: "CME_MINI:NQ1!" },
+  { label: "YM - Mini Dow",               embed: "OANDA:US30USD",   tv: "CBOT_MINI:YM1!" },
+  { label: "CL - Crude Oil",              embed: "TVC:USOIL",       tv: "NYMEX:CL1!" },
+  { label: "GC - Gold",                   embed: "TVC:GOLD",        tv: "COMEX:GC1!" },
+  { label: "SI - Silver",                 embed: "TVC:SILVER",      tv: "COMEX:SI1!" },
+  { label: "NG - Nat Gas",                embed: "OANDA:NATGASUSD", tv: "NYMEX:NG1!" },
+  { label: "ZN - 10Y Note (yield proxy)", embed: "TVC:US10Y",       tv: "CBOT:ZN1!" },
+  { label: "ZB - 30Y Bond (yield proxy)", embed: "TVC:US30Y",       tv: "CBOT:ZB1!" },
+  { label: "6E - Euro FX (spot proxy)",   embed: "OANDA:EURUSD",    tv: "CME:6E1!" },
+  { label: "DXY - US Dollar",             embed: "TVC:DXY",         tv: "TVC:DXY" },
 ];
 
 export default function App() {
@@ -423,7 +423,7 @@ export default function App() {
           <div className="mt-10 grid md:grid-cols-2 gap-6">
             <div className="rounded-2xl bg-[var(--card)] p-6 border border-[var(--cardBorder)]">
               <div className="text-sm text-[var(--muted)]">Indicator</div>
-              <div className="text-xl font-semibold">Macro S&D Â· Alpha</div>
+              <div className="text-xl font-semibold">Macro S&D - Alpha</div>
               <ul className="mt-4 space-y-2 text-[var(--muted)] list-disc list-inside">
                 <li>Projects macro supply/demand zones</li>
                 <li>Guides bias, context, and risk posture</li>
@@ -432,7 +432,7 @@ export default function App() {
             </div>
             <div className="rounded-2xl bg-[var(--card)] p-6 border border-[var(--cardBorder)]">
               <div className="text-sm text-[var(--muted)]">Indicator</div>
-              <div className="text-xl font-semibold">Macro S&D Â· Beta</div>
+              <div className="text-xl font-semibold">Macro S&D - Beta</div>
               <ul className="mt-4 space-y-2 text-[var(--muted)] list-disc list-inside">
                 <li>Micro pivots (1&ndash;5) and execution zones</li>
                 <li>Confirms triggers with volume/flow</li>
