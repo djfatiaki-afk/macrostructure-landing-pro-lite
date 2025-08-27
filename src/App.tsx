@@ -390,15 +390,16 @@ export default function App() {
         <div className="grid lg:grid-cols-2 gap-12">
           <div>
             <h2 className="text-3xl sm:text-4xl font-semibold text-[var(--heading)]">Six Pillars to Supply & Demand Mastery</h2>
-            <p className="mt-4 text-[var(--muted)]">
-              Our rules are simple: short at <span className="text-white font-semibold">micro 5â†’rarr;4</span> and long at <span className="text-white font-semibold">micro 1â†’rarr;2</span>â€”mdash;only when structure aligns with signals. No chasing.
-            </p>
-            <ul className="mt-6 space-y-3 text-[var(--muted)] list-disc list-inside">
-              <li>Top-down framing: monthly â†’rarr; weekly â†’rarr; daily â†’rarr; intraday</li>
-              <li>Projected zones ahead of price with VWAP/volume context</li>
-              <li>Clear invalidation & target pivots (micro 1â€“ndash;5)</li>
-              <li>TTM and flow confirmation before trigger</li>
-            </ul>
+  <p className="mt-4 text-[var(--muted)]">
+  Our rules are simple: short at <span className="text-white font-semibold">micro 5&rarr;4</span> and long at <span className="text-white font-semibold">micro 1&rarr;2</span>&mdash;only when structure aligns with signals. No chasing.
+</p>
+<ul className="mt-6 space-y-3 text-[var(--muted)] list-disc list-inside">
+  <li>Top-down framing: monthly &rarr; weekly &rarr; daily &rarr; intraday</li>
+  <li>Projected zones ahead of price with VWAP/volume context</li>
+  <li>Clear invalidation &amp; target pivots (micro 1&ndash;5)</li>
+  <li>TTM and flow confirmation before trigger</li>
+</ul>
+
           </div>
           <div className="rounded-2xl bg-gradient-to-br from-[var(--bgMuted)] to-[var(--bg)] p-6 border border-[var(--cardBorder)]">
             <div className="text-sm text-[var(--muted)]">Signature Setup</div>
