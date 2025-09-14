@@ -805,13 +805,214 @@ export default function App() {
           <p className="mt-8 text-xs text-[var(--muted)]">Disclaimer: The materials are for informational purposes only and do not constitute investment advice.</p>
         </div>
       </section>
+{/* Terms of Service */}
+<section id="terms" className="border-t border-[var(--cardBorder)] bg-[var(--bg)]">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <h2 className="text-3xl sm:text-4xl font-semibold">Terms of Service — MACROSTRUCTURE CONNECT</h2>
+    <p className="mt-4 text-[var(--muted)]"><strong>Effective date:</strong> 01 September 2025</p>
+
+    <p className="mt-4 text-[var(--muted)]">
+      These Terms of Service (“Terms”) govern your access to and use of MacroStructure Connect’s products and
+      services, including: (a) our public websites and pages (the “Websites,” e.g., macrostructureconnect.com and
+      related subdomains), and (b) our paid services delivered via Upgrade.Chat and integrated tools (the “Services”),
+      which include invite-only TradingView indicators (Macro S&amp;D Alpha &amp; Beta), documentation, guides,
+      community/Discord access, on-site chart previews, and any related content. By visiting the Websites, purchasing,
+      subscribing to, or otherwise accessing the Services, you agree to these Terms.
+    </p>
+
+    <div className="mt-8 space-y-8 text-[var(--muted)]">
+      <div>
+        <h3 className="font-semibold text-white">1) What we provide (educational use only)</h3>
+        <ul className="list-disc list-inside mt-2 space-y-1">
+          <li>Access to invite-only TradingView indicators (Macro S&amp;D Alpha &amp; Beta).</li>
+          <li>Educational content (playbooks, guides, examples).</li>
+          <li>Community access via Discord (roles tied to your plan).</li>
+          <li>On-site chart previews and deep links to TradingView.</li>
+        </ul>
+        <p className="mt-2">We do not provide investment, financial, legal, or tax advice. All content is educational research only.</p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-white">2) Eligibility</h3>
+        <p className="mt-2">You must be at least 18 years old (or the age of majority in your jurisdiction) and legally capable of entering contracts.</p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-white">3) Accounts &amp; provisioning</h3>
+        <p className="mt-2">
+          We provision Discord roles and TradingView access based on your active subscription. You must provide accurate
+          information (e.g., your exact TradingView username and Discord account) and keep it updated. You consent to us
+          adding/removing invite-only access and Discord roles as your status changes.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-white">4) Subscriptions, billing &amp; price changes</h3>
+        <p className="mt-2">
+          Subscriptions auto-renew until canceled. You authorize our payment processor (Upgrade.Chat and its underlying
+          processor, e.g., Stripe/PayPal) to charge your payment method periodically. Taxes may apply. We may change
+          pricing on renewal with notice. If a payment fails or a dispute/chargeback occurs, access may be suspended or
+          terminated immediately.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-white">5) Free trials</h3>
+        <p className="mt-2">
+          If offered, the free trial length and eligibility appear at checkout. Trial access ends automatically unless
+          you start a paid plan. We may deny or revoke trials for suspected abuse.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-white">6) Refunds</h3>
+        <p className="mt-2">
+          <strong>No refunds.</strong> A free 14-day trial lets you evaluate the system before subscribing. By starting a paid
+          subscription, you acknowledge and agree that all fees are non-refundable to the fullest extent permitted by law
+          (including partial periods, unused time, or late cancellations). Local mandatory consumer rights (if any) still apply.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-white">7) Cancellation &amp; access removal</h3>
+        <p className="mt-2">
+          You can cancel any time via your Upgrade.Chat portal (or by contacting support). When you cancel, your plan
+          remains active until the end of the current billing period and then terminates. TradingView access and Discord
+          roles are removed when the period ends. In cases of payment failure, chargeback, fraud, or Terms violations,
+          access may be suspended or terminated immediately.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-white">8) Group/Team plans</h3>
+        <p className="mt-2">
+          Group plans include a set number of seats. Seat sharing outside the group or resale is prohibited. We may limit
+          seat transfers to a reasonable frequency.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-white">9) Acceptable use (Websites &amp; Services)</h3>
+        <ul className="list-disc list-inside mt-2 space-y-1">
+          <li>Do not share, resell, sublicense, copy, scrape, or redistribute our indicators, code, charts, or content.</li>
+          <li>Do not circumvent paywalls or invite-only permissions; do not reverse-engineer indicators or access keys.</li>
+          <li>Do not upload malware, spam, or unlawful/harassing/infringing content.</li>
+          <li>Do not interfere with or overload our infrastructure or third-party integrations.</li>
+        </ul>
+        <p className="mt-2">We may suspend or terminate access for violations without refund.</p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-white">10) Intellectual property &amp; website content</h3>
+        <p className="mt-2">
+          All content, indicators, software, brand assets, and documentation are our IP or licensed to us. On
+          subscription, you receive a personal, revocable, non-transferable license to use the indicators while your
+          subscription is active. Website content is provided for your personal, non-commercial use unless otherwise
+          agreed in writing. You may not reproduce or redistribute site content without permission.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-white">11) Market risk &amp; disclaimers</h3>
+        <p className="mt-2">
+          Trading involves substantial risk. Past performance does not guarantee future results. We make no performance
+          promises, profit claims, or outcome guarantees. You are solely responsible for your trading decisions.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-white">12) Third-party services</h3>
+        <p className="mt-2">
+          We integrate with third parties (e.g., Upgrade.Chat, Stripe/PayPal, Discord, TradingView, analytics/email tools).
+          Your use of those services is also subject to their terms and policies. We are not responsible for outages or
+          changes caused by third parties.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-white">13) Privacy, cookies &amp; data</h3>
+        <p className="mt-2">
+          We process personal data (e.g., Discord ID, TradingView username, email) to provide access, support, and operate
+          the Services. The Websites may use cookies and analytics. See our Privacy Policy for details. By using the
+          Websites/Services, you consent to such processing.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-white">14) Service &amp; site changes</h3>
+        <p className="mt-2">
+          We may modify, pause, or discontinue features (including indicators and website sections) with reasonable notice
+          where feasible. If we terminate the Service entirely during a paid term, we’ll provide a prorated refund unless
+          the shutdown is outside our control.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-white">15) Warranty disclaimer</h3>
+        <p className="mt-2">The Websites and Services are provided “as is” and “as available,” without warranties of any kind to the fullest extent permitted by law.</p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-white">16) Limitation of liability</h3>
+        <p className="mt-2">
+          To the maximum extent permitted by law, we are not liable for indirect, incidental, special, consequential,
+          exemplary, or punitive damages, or any lost profits or trading losses. Our total liability for any claim is
+          limited to the amount you paid for the Services in the 3 months preceding the claim.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-white">17) Indemnification</h3>
+        <p className="mt-2">
+          You agree to indemnify and hold us harmless from claims arising from your use of the Websites/Services, your
+          trading decisions, your content, or your breach of these Terms.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-white">18) Linking &amp; trademarks</h3>
+        <p className="mt-2">
+          You may link to public pages of the Websites in a fair and legal manner that does not misrepresent affiliation.
+          TradingView and other third-party names/logos are trademarks of their respective owners and used for
+          identification only.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-white">19) Governing law &amp; disputes</h3>
+        <p className="mt-2">
+          The laws of NSW/Australia govern these Terms without regard to conflicts of law. You agree to the exclusive
+          jurisdiction of the courts in NSW/Australia.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-white">20) Changes to these Terms</h3>
+        <p className="mt-2">
+          We may update these Terms. We’ll post the new version and update the effective date. Continued use after
+          changes indicates your acceptance.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-white">21) Contact</h3>
+        <p className="mt-2">
+          <strong>MacroStructure Connect</strong><br />
+          Email: <a className="text-[var(--accent)] hover:underline" href="mailto:djfatiaki@gmail.com">djfatiaki@gmail.com</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Footer */}
       <footer className="border-t border-[var(--cardBorder)]">
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-sm text-[var(--muted)] flex flex-col md:flex-row items-center justify-between gap-4">
           <div>&copy; {new Date().getFullYear()} MacroStructure Connect. All rights reserved.</div>
           <div className="flex items-center gap-6">
-            <a href="#" className="hover:text-white">Terms</a>
+            <a href="#terms" className="hover:text-white">Terms</a>
             <a href="#" className="hover:text-white">Privacy</a>
             <a href="#trial" className="hover:text-white">Contact</a>
             <a href={DISCORD_INVITE} target="_blank" rel="noopener noreferrer" className="hover:text-white">Discord</a>
