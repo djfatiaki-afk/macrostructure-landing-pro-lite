@@ -1004,22 +1004,160 @@ export default function App() {
     </div>
   </div>
 </section>
+{/* Privacy Policy */}
+<section id="privacy" className="border-t border-[var(--cardBorder)] bg-[var(--bg)]">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <h2 className="text-3xl sm:text-4xl font-semibold">Privacy Policy &mdash; MACROSTRUCTURE CONNECT</h2>
+    <p className="mt-4 text-[var(--muted)]"><strong>Effective date:</strong> 01 September 2025</p>
+
+    <div className="mt-6 space-y-6 text-[var(--muted)]">
+      <p>
+        This Privacy Policy explains how we collect, use, share, and protect information in connection with
+        MacroStructure Connect&apos;s websites, invite-only TradingView indicators (Macro S&amp;D Alpha &amp; Beta),
+        community (Discord), and related services (the &quot;Services&quot;).
+      </p>
+
+      <div>
+        <h3 className="text-white font-semibold">1) Who we are</h3>
+        <p className="mt-2">
+          MacroStructure Connect (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;). Contact: <a className="text-[var(--accent)]" href="mailto:djfatiaki@gmail.com">djfatiaki@gmail.com</a>.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-white font-semibold">2) What we collect</h3>
+        <ul className="mt-2 list-disc list-inside">
+          <li>Account and contact details you provide (e.g., email, TradingView username, Discord ID).</li>
+          <li>Transaction and subscription info (via Upgrade.Chat and its processors, e.g., Stripe/PayPal).</li>
+          <li>Support messages and operational metadata (invite status, role changes, timestamps).</li>
+          <li>Technical data from your browser (IP, device, basic analytics/telemetry). Any third-party embeds (e.g., TradingView) may set their own cookies per their policies.</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 className="text-white font-semibold">3) How we use information</h3>
+        <ul className="mt-2 list-disc list-inside">
+          <li>Provisioning and managing access to indicators and Discord roles.</li>
+          <li>Communicating about trials, onboarding, and support.</li>
+          <li>Processing payments, detecting fraud/abuse, and enforcing Terms.</li>
+          <li>Improving Services, diagnostics, security, and compliance.</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 className="text-white font-semibold">4) Legal bases (where applicable)</h3>
+        <ul className="mt-2 list-disc list-inside">
+          <li>Performance of a contract (providing the Services you requested).</li>
+          <li>Legitimate interests (security, troubleshooting, product improvement).</li>
+          <li>Consent (where we rely on it, e.g., certain communications or cookies).</li>
+          <li>Legal obligations (tax, accounting, compliance).</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 className="text-white font-semibold">5) Sharing &amp; processors</h3>
+        <p className="mt-2">
+          We share data with service providers strictly to operate the Services, for example:
+        </p>
+        <ul className="mt-2 list-disc list-inside">
+          <li>Upgrade.Chat and payment processors (e.g., Stripe/PayPal) for billing and subscription management.</li>
+          <li>TradingView (invite-only script access you request).</li>
+          <li>Discord (roles, community access).</li>
+          <li>Hosting, build, and DNS providers (e.g., Vercel, Cloudflare).</li>
+          <li>Email and support tools (e.g., Gmail).</li>
+        </ul>
+        <p className="mt-2">
+          We do not sell your personal information. We may disclose if required by law or to protect rights and safety.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-white font-semibold">6) International transfers</h3>
+        <p className="mt-2">
+          Providers may process data globally. Where required, we rely on appropriate safeguards (e.g., SCCs).
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-white font-semibold">7) Retention</h3>
+        <p className="mt-2">
+          We keep data for as long as necessary to provide the Services and meet legal obligations. We delete or anonymize
+          data when it is no longer needed.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-white font-semibold">8) Your rights</h3>
+        <p className="mt-2">
+          Depending on your location, you may have rights to access, correct, delete, or port your data, and to object or
+          restrict certain processing. To exercise rights, contact <a className="text-[var(--accent)]" href="mailto:djfatiaki@gmail.com">djfatiaki@gmail.com</a>.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-white font-semibold">9) Children</h3>
+        <p className="mt-2">The Services are for adults. We do not knowingly collect data from children under the age of 18.</p>
+      </div>
+
+      <div>
+        <h3 className="text-white font-semibold">10) Security</h3>
+        <p className="mt-2">
+          We use reasonable technical and organizational measures. No method is 100% secure; please use strong passwords
+          and protect your accounts.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-white font-semibold">11) Changes</h3>
+        <p className="mt-2">
+          We may update this policy; we will post a new version with an updated effective date. Continued use means you
+          accept the updated policy.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-white font-semibold">12) Contact</h3>
+        <p className="mt-2">
+          MacroStructure Connect &middot; Email:&nbsp;
+          <a className="text-[var(--accent)]" href="mailto:djfatiaki@gmail.com">djfatiaki@gmail.com</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+{/* Cookie Notice */}
+<section id="cookies" className="border-t border-[var(--cardBorder)] bg-[var(--bg)]">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <h2 className="text-3xl sm:text-4xl font-semibold">Cookie Notice &mdash; MACROSTRUCTURE CONNECT</h2>
+    <p className="mt-6 text-[var(--muted)]">
+      We use only essential cookies and similar technologies necessary to operate our site and Services.
+      Third-party embeds (for example, TradingView charts) may set their own cookies or use similar technologies
+      subject to their policies. For details, please see the third party&apos;s privacy/cookie policies.
+    </p>
+    <p className="mt-4 text-[var(--muted)]">
+      You can control cookies at the browser level (e.g., block or delete cookies) which may affect functionality.
+      For more information about how we handle personal data, see our&nbsp;
+      <a href="#privacy" className="text-[var(--accent)] hover:underline">Privacy Policy</a>.
+    </p>
+  </div>
+</section>
+
 
 
       {/* Footer */}
-      <footer className="border-t border-[var(--cardBorder)]">
-
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-sm text-[var(--muted)] flex flex-col md:flex-row items-center justify-between gap-4">
-          <div>&copy; {new Date().getFullYear()} MacroStructure Connect. All rights reserved.</div>
-          <div className="flex items-center gap-6">
-            <a href="#terms" className="hover:text-white">Terms</a>
-            <a href="#" className="hover:text-white">Privacy</a>
-            <a href="#trial" className="hover:text-white">Contact</a>
-            <a href={DISCORD_INVITE} target="_blank" rel="noopener noreferrer" className="hover:text-white">Discord</a>
-          </div>
-        </div>
-      </footer>
+<footer className="border-t border-[var(--cardBorder)]">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-sm text-[var(--muted)] flex flex-col md:flex-row items-center justify-between gap-4">
+    <div>&copy; {new Date().getFullYear()} MacroStructure Connect. All rights reserved.</div>
+    <div className="flex items-center gap-6">
+      <a href="#terms" className="hover:text-white">Terms</a>
+      <a href="#privacy" className="hover:text-white">Privacy</a>
+      <a href="#cookies" className="hover:text-white">Cookies</a>
+      <a href="#trial" className="hover:text-white">Contact</a>
+      <a href={DISCORD_INVITE} target="_blank" rel="noopener noreferrer" className="hover:text-white">Discord</a>
     </div>
+  </div>
+</footer>
+</div>
   );
 }
 
